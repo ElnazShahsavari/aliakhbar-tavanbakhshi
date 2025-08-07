@@ -1,0 +1,12 @@
+.link{
+    color: rgb(1, 80, 49);
+    
+}
+
+.link i{
+    aspect-ratio: 1/1;
+}
+
+.link:hover i{
+    background-color: rgb(237, 200, 17);
+}

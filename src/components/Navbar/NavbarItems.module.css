@@ -1,0 +1,26 @@
+.list li {
+    border-right: 0.01px dashed rgba(255, 255, 255, 0.436);
+}
+
+.list li .active{
+    color: rgba(237, 200, 17, 1) !important;
+}
+
+.list .active .botton{
+    position: absolute;
+    background-color: rgba(237, 200, 17, 1);
+    width: 75%;
+    height: 3px;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+}
+
+.list li:hover .link{
+    color: rgba(237, 200, 17, 1) !important;
+}
+
+.borderDasht {
+    border-left: 0.01px dashed rgba(255, 255, 255, 0.436);
+}

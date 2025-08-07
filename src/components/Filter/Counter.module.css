@@ -1,0 +1,28 @@
+.counter {
+    background-color: rgb(222, 232, 228);
+    color: rgb(0, 0, 0);
+    width: 48px;
+    height: 36px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.counterSign {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.counterSign:hover {
+    background-color: rgb(1, 80, 49)!important;
+    color: rgb(255, 255, 255)!important;
+}

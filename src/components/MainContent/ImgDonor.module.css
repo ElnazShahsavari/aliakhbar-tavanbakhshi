@@ -1,0 +1,32 @@
+.card {
+    padding-top: 10px;
+    overflow: hidden;
+    aspect-ratio: 5/3;
+    position: relative;
+    border-radius: 10px 10px 10px 0;
+}
+
+.image {
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+    transform: scaleX(-1);
+}
+
+.name{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.name div{
+    width: 45px;
+    height: 2px;
+    border: 2px;
+    background-color: rgb(237, 200, 17);
+}
+
+.btn{
+    border-top-right-radius: 20px;
+}

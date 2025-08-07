@@ -1,0 +1,4 @@
+.btn input:checked {
+    background-color: rgb(209, 157, 30) !important;
+    border-color: rgb(222, 232, 228) !important;
+}

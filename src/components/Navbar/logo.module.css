@@ -1,0 +1,20 @@
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 226px;
+  height: 49px;
+}
+
+.logoContainer img {
+  width: 48px;
+  height: 44px;
+}
+
+.logoText {
+  font-family: 'Vazir', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-weight: 700;
+  color: black;
+}

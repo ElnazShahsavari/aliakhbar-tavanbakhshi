@@ -1,0 +1,17 @@
+.list{
+    width: 270px;
+    z-index: 1000;
+    border-top: 5px solid rgba(237, 200, 17, 1);
+}
+
+.list li{
+    border-bottom: 1px dashed rgb(222, 232, 228);
+}
+
+.item:hover{
+    background-color: rgb(222, 232, 228);
+}
+
+.drop:hover span{
+    color: rgba(237, 200, 17, 1) !important;
+}

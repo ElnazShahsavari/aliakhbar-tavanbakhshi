@@ -1,0 +1,14 @@
+.customBtn {
+  background-color: rgb(237, 200, 17); 
+  color: rgb(1, 80, 49); 
+  border: 1px solid rgb(237, 200, 17);
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  align-items: center;
+}
+
+.customBtn:hover {
+  color: rgba(1, 80, 49, 1); 
+  background-color: rgba(255, 234, 5, 1); 
+}

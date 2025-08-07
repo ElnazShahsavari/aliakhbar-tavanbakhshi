@@ -1,0 +1,10 @@
+.section{
+    position: relative;
+    border-bottom: 1px solid rgb(222, 232, 228);
+}
+
+.section div{
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+}

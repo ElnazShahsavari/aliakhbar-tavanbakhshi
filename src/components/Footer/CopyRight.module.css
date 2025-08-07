@@ -1,0 +1,13 @@
+.section{
+    border-radius: 240px 0 0 0;
+}
+
+.linkBox a{
+    width: 34px;
+    height: 34px;
+    transition: all 0.3s ease;
+}
+.linkBox a:hover{
+    background-color: rgb(1, 80, 49);
+    color: rgb(225, 234, 231);
+}

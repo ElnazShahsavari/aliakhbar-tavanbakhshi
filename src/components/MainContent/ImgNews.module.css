@@ -1,0 +1,45 @@
+.card {
+    aspect-ratio: 3/2;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.card::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(237, 200, 17, 1)!important;
+  border-bottom-left-radius: 05rem;
+  border-bottom-right-radius: 05rem;
+  transition: all 0.3s ease;
+}
+
+.card:hover::after{
+  height: 5px;
+}
+
+.card img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card div {
+    position: absolute;
+    bottom: 0;
+}
+
+.boxShadow {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+    width: 100%;
+    height: 50%;
+}

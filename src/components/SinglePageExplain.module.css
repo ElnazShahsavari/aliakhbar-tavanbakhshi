@@ -1,0 +1,46 @@
+.img {
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+
+.profile1 {
+    position: absolute;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    right: 0;
+    border: 3px solid white;
+}
+
+.profile2 {
+    position: absolute;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    right: 20px;
+    border: 3px solid white;
+}
+
+.profile3 {
+    position: absolute;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    right: 40px;
+    border: 3px solid white;
+}
+
+.profile4 {
+    position: absolute;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    right: 60px;
+    border: 3px solid white;
+    background-color: rgb(222, 232, 228);
+    color: rgb(1, 80, 49);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+.section{
+    background: linear-gradient(to top,rgb(1,80,49),rgb(65,156,79));
+}
+
+.img div{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-image: url(../../assets/img/FinancialSupport.png);
+    background-size: cover;
+    border-radius: 50%;
+    opacity: 0.3;
+    z-index: 1;
+    transform: rotate(35deg);
+}
+
+.img img{
+    width: 80%;
+    aspect-ratio: 1/1;
+    z-index: 2;
+}

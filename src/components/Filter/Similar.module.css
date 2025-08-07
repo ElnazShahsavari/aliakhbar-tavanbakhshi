@@ -1,0 +1,9 @@
+.taskBox img{
+    width: 78px;
+    height: 52px;
+}
+
+.taskBox:hover{
+    background-color: #6c757c !important;
+    color: white !important;
+}

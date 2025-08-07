@@ -1,0 +1,23 @@
+.sliderImg {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.section :global(.carousel-indicators) {
+    background-color: #f8f9fa;
+    padding: 8px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: absolute;
+    width: 20%;
+}
+
+.section button {
+    background-color: rgba(1, 80, 49, 1) !important;
+    pointer-events: auto;
+}

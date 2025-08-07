@@ -1,0 +1,40 @@
+.submit {
+  border-radius: 10px;
+  background-color: rgb(222, 232, 228);
+  color: rgb(1, 80, 49);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: rgb(1, 80, 49);
+  color: rgb(222, 232, 228);
+}
+
+
+.profile {
+  width: 59px;
+  height: 59px;
+  border: 3px solid #f8f9fa;
+  border-radius: 50%;
+}
+
+.replyBtn {
+  background-color: rgb(222, 232, 228);
+  color: rgb(1, 80, 49);
+  height: 38px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.replyBtn:hover {
+  background-color: rgb(1, 80, 49);
+  color: rgb(222, 232, 228);
+}

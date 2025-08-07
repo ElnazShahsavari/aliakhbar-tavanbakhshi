@@ -1,0 +1,11 @@
+.img {
+    left: 0;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+
+.btn {
+    bottom: 0;
+    right: 2%;
+}

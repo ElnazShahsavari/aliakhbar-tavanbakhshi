@@ -1,0 +1,12 @@
+.item{
+    transition: all 0.3s ease;
+}
+
+.item:hover {
+    background-color: #6c757c !important;
+    color: white !important;
+}
+
+.item:hover div {
+    background-color: rgb(209, 157, 30)!important;
+}

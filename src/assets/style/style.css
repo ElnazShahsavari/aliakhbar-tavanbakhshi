@@ -1,0 +1,73 @@
+/* YekanBakh Custom Font by fontchi.com */
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../../../public/fonts/yekan-bakh-regular.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../../../public/fonts/yekan-bakh-regular.ttf') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* body {
+  font-family: 'YekanBakh', sans-serif;
+} */
+
+/* gray border */
+.border-muted {
+  border: 1px solid rgb(222, 232, 228);
+}
+.border-botton-muted {
+  border-bottom: 1px solid rgb(222, 232, 228);
+}
+
+.border-green {
+  border: 1px solid rgb(1, 80, 49);
+}
+
+/* background */
+.my-bg-green {
+  background-color: rgb(1, 80, 49);
+}
+
+.my-bg-light {
+  background-color: rgb(225, 234, 231);
+}
+
+.my-bg-yelow {
+  background-color: rgb(209, 157, 30);
+}
+
+.my-bg-yellow {
+  background-color: rgb(209, 157, 30);
+}
+
+.my-bg-lightYellow {
+  background-color: rgba(237, 200, 17, 1);
+}
+
+.my-bg-gray {
+  background-color: rgb(119, 114, 114);
+}
+
+/* color */
+.my-yellow {
+  color: rgb(209, 157, 30);
+}
+.my-lightYellow {
+  color: rgba(237, 200, 17, 1);
+}
+
+.my-green {
+  color: rgb(1, 80, 49);
+}
+
+
+/* space */
+.justify-content-space-between {
+  justify-content: space-between;
+}
