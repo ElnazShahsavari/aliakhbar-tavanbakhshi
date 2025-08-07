@@ -3,6 +3,7 @@ import React from 'react';
 import logo from '../../assets/img/logo2.png';
 import enamad from '../../assets/img/enamad.png';
 
+
 const Logo = () => {
     return (
         <div className='row row-cols-2 row-cols-lg-1 d-flex align-items-stretch'>

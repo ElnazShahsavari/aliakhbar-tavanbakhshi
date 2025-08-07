@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import styles from './ViewBtn.module.css';
 
+// دکمه برای ورود به صفحات
 const ViewBtn = ({ link , title = 'مشاهده همه' , btnClass}) => {
    
     return (

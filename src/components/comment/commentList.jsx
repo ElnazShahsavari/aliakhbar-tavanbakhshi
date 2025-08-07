@@ -8,6 +8,7 @@ import img4 from '../../assets/img/comment4.png';
 import img5 from '../../assets/img/comment5.png';
 import AddComment from './AddComment.jsx';
 
+// نمایش کامنت ها
 const CommentList = () => {
     const [comments, AddToComments] = useState([
         {   

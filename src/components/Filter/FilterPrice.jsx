@@ -1,5 +1,6 @@
 import React from 'react';
 
+// محدود کردن قیمت ها
 const FilterPrice = () => {
     return (
         <div className='bg-light rounded-3 p-3 my-3'>

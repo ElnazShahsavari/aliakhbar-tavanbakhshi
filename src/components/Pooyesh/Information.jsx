@@ -11,6 +11,7 @@ const testInfo = {
 
 }
 
+// اطلاعات یک پویش
 const Information = () => {
     return (
         <div className=' bg-white rounded-3 p-3 mb-3'>

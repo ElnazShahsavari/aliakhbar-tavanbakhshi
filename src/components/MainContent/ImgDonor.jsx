@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './ImgDonor.module.css';
 import ViewBtn from '../Buttons/ViewBtn';
 
+// عکس و اطلاعات خیرین
 const ImgDonor = ({ items }) => {
     return (
         <div className={`${styles.card} position-relative my-bg-green mb-2`}>

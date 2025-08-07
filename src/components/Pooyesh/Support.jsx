@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Counter from '../Filter/Counter';
 import SupportBtn from '../Buttons/SupportBtn';
 
+// نشان دادن میزان حمایت از پویش
 const Support = () => {
     const [number, setNumber] = useState(1);
 

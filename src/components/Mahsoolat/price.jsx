@@ -3,6 +3,7 @@ import TitleOfTask from '../Filter/TitleOfTask';
 import SupportBtn from '../Buttons/SupportBtn';
 import Counter from '../Filter/Counter';
 
+// قیمت و اطلاعات محصول برای خرید
 const Price = ({ type, price, discountPrice }) => {
     return (
         <div className=' bg-white rounded-3 px-3 pb-3'>

@@ -19,7 +19,7 @@ const navItems = [
     { title: 'ورود و ثبت نام', path: '/ComingSoon' },
 ]
 
-
+// منو
 const NavbarItems = () => {
     return (
         <div className='my-bg-green pb-2 px-1 rounded-3 text-white small fw-medium d-flex justify-content-between align-items-center'>

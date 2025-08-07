@@ -3,6 +3,7 @@ import styles from './List.module.css';
 import Title from './Title';
 import { NavLink } from 'react-router-dom';
 
+// لیست لینک ها
 const List = ({ title, items }) => {
     return (
         <div className={styles.list}>

@@ -3,7 +3,7 @@ import styles from './Similar.module.css';
 import TitleOfTask from './TitleOfTask';
 import { Link } from 'react-router-dom';
 
-
+// نشان دادن محصولات ، پویش ها و ... مشابه
 const Similar = ({ title, items , pathLink }) => {
     return (
         <div className='bg-white p-3 rounded-3'>

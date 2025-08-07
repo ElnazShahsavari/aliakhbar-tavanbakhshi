@@ -6,7 +6,7 @@ function Logo(){
     return (
     <div className={styles.logoContainer}>
       <img src={logoImage} alt="لوگوی موسسه توانبخشی حضرت علی اکبر" />
-      <span className={styles.logoText}>
+      <span className={`${styles.logoText} fs-5`}>
         موسسه خیریه توانبخشی حضرت علی اکبر (ع)
       </span>
     </div>

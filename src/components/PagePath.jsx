@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './PagePath.module.css';
 
+// نشان دادن موقعیت شخص در سایت
 const PagePath = ({ title1, title2 }) => {
     return (
         <div className={`${styles.box} d-flex align-items-center py-2`}>

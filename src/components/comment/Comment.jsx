@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Comment.module.css';
 import Reply from './Reply';
 
+// محتوای کامنت
 const Comment = ({ items, orginalComment = true }) => {
   return (
     <div className={`${styles.commentBox} w-100 ${orginalComment && 'border-botton-muted py-4 px-3'}`}>

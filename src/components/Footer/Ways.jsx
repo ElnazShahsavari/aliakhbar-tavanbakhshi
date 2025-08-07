@@ -3,6 +3,7 @@ import Title from './Title';
 
 import items from '../../assets/information/ertebat';
 
+// راه های ارتباطی
 const Ways = () => {
     return (
                 <ul className='text-white list-unstyled ms-5 mt-5 mt-md-0 d-flex flex-column flex-wrap'>

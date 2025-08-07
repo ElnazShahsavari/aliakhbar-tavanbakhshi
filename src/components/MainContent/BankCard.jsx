@@ -3,6 +3,7 @@ import styles from './BankCard.module.css';
 
 import bgImg from '../../assets/img/depositCard.png';
 
+// نام و شماره کارت
 const BankCard = ({item}) => {
     return (
         <div className={`${styles.card} position-relative bg-white rounded-3 d-flex flex-column px-2 py-1 pt-2`}>

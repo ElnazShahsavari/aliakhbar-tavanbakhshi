@@ -6,6 +6,7 @@ import DepositBtn from '../Buttons/DepositBtn';
 import items from '../../assets/information/bankCarts';
 import img from '../../assets/img/deposit.png';
 
+// باکس برای نشان دادن شماره کارت برای واریز فطریه و غیره
 const DepositBox = () => {
     return (
         <div className={`row position-relative mt-5 w-100 align-items-stretch`}>

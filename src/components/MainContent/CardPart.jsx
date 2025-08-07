@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// کارت های بخش ها
 const CardPart = ({ items }) => {
     return (
         <Link to={items.link} className='p-3 text-decoration-none text-black d-flex justify-content-center flex-column align-items-center'>

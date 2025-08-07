@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './contactNumber.module.css'
 
+// شماره تماس
 function ContactNumber() {
     return (
         <>

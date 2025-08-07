@@ -12,6 +12,7 @@ import PageSelector from '../components/PageSelector';
 // دسته بندی ها
 const parts = ['همه دسته بندی ها', 'درمانی', 'تحصیل', 'ازدواج', 'ساخت و ساز', 'شغل', 'سایر']
 
+// صفحه پویش ها
 const Pooyesh = ({ items }) => {
     return (
         <section>
@@ -26,7 +27,7 @@ const Pooyesh = ({ items }) => {
             <div className='row'>
 
                 {/* جستجو و تنظیمات بخش */}
-                <div className='col col-md-4 col-lg-3 mt-3 d-none d-md-block'>
+                <div className='col col-md-4 col-lg-3 mt-3'>
                     <SearchBox />
                     <Category title='دسته بندی ها' items={parts} />
                     <Filter />

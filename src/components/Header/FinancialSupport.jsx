@@ -4,6 +4,7 @@ import styles from './FinancialSupport.module.css'
 import img from '../../assets/img/FinancialSupport.png'
 import DepositBtn from '../Buttons/DepositBtn';
 
+// باکس سبز رنگ برای حمایت مالی
 const FinancialSupport = () => {
     return (
         <div className='col col-12 col-lg-3 mt-3'>
@@ -18,7 +19,7 @@ const FinancialSupport = () => {
 
                 {/* title and botton */}
                 <div className='col col-6 col-lg-12 d-flex align-items-center mt-0 mt-lg-5'>
-                    <div className='d-flex align-items-center flex-column mx-auto px-4'>
+                    <div className='d-flex align-items-center flex-column mx-auto px-0 px-md-4'>
                         <p className='fw-bold fs-5 text-center text-white'>موسسه خیریه توانبخشی حضرت علی اکبر (ع)</p>
                         <DepositBtn title='حمایت مالی' link='#' />
                     </div>

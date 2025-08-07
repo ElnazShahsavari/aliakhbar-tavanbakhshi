@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './UpDownBtn.module.css'
 
+// دو دکمه برای sort کردن
 const UpDownBtn = ({ up, down }) => {
     return (
         <div className={styles.box}>

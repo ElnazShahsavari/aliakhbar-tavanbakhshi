@@ -13,6 +13,7 @@ import Hashtag from '../components/Filter/Hashtag';
 // دسته بندی ها
 const parts = ['همه دسته بندی ها', 'صنایع دستی ترپینی', 'تابلو ها', 'بافتنی', 'چوبی']
 
+// یک آیتم از محصولات
 const SinglePageMahsoolat = ({ items }) => {
         const { productId } = useParams();
 

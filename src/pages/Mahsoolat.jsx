@@ -12,6 +12,7 @@ import PageSelector from '../components/PageSelector';
 // دسته بندی ها
 const parts = ['همه دسته بندی ها', 'صنایع دستی ترپینی', 'تابلو ها', 'بافتنی', 'چوبی']
 
+// صفحه محصولات
 const Mahsoolat = ({ items }) => {
     return (
         <section>
@@ -26,7 +27,7 @@ const Mahsoolat = ({ items }) => {
             <div className='row'>
 
                 {/* جستجو و تنظیمات بخش */}
-                <div className='col col-6 col-md-4 col-lg-3 mt-3'>
+                <div className='col col-12 col-md-4 col-lg-3 mt-3'>
                     <SearchBox />
                     <Category title='دسته بندی ها' items={parts} />
                     <Filter />
@@ -34,9 +35,9 @@ const Mahsoolat = ({ items }) => {
                 </div>
 
                 {/* محصولات */}
-                <div className='col col-6 col-md-8 col-lg-9 px-0 px-sm-1 px-md-0 px-lg-2'>
+                <div className='col col-12 col-md-8 col-lg-9 px-0 px-sm-1 px-md-0 px-lg-2'>
 
-                    <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3'>
+                    <div className='row row-cols-2 row-cols-lg-3'>
                         {items.slice(0, 6).map((item, index) => (
                             <div className='col mt-3 px-2 px-sm-3 px-md-1 px-xl-3' key={index}>
                                 <CardInfo items={item} type='mahsool' miniText='دست سازه ' />

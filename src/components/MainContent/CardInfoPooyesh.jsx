@@ -5,6 +5,7 @@ import img0 from '../../assets/img/Status0.png';
 import img05 from '../../assets/img/Status0.5.png';
 import img1 from '../../assets/img/Status1.png';
 
+// برای نشان دادن اطلاعات پویش در هر کارت پویش
 const CardInfoPooyesh = ({ items, link }) => {
     return (
         <div className='d-flex'>

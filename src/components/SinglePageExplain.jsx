@@ -6,6 +6,7 @@ import img1 from '../assets/img/tavan5.png';
 import img2 from '../assets/img/tavan4.png';
 import img3 from '../assets/img/tavan1.png';
 
+// باکس توضیحات برای صفحه های توضیح یک آیتم
 const SinglePageExplain = ({ items , children , miniText , Team}) => {
     return (
             <section className='p-4 bg-white rounded-3 border-muted'>

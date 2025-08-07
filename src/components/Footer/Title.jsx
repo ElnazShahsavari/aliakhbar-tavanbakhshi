@@ -1,5 +1,6 @@
 import React from 'react';
 
+// عنوان هر لیست
 const Title = ({title}) => {
     return (
         <div className='d-flex'>

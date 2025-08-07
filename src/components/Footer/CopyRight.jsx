@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './CopyRight.module.css'
 
+// باکس سفید برای حق کپی رایت
 const CopyRight = () => {
     return (
         <div className={`col col-12 col-md-9 bg-light ${styles.section}`}>

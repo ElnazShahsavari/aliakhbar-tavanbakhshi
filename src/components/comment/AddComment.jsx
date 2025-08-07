@@ -3,6 +3,7 @@ import styles from './Comment.module.css';
 
 import img from '../../assets/img/comment2.png';
 
+// اضافه کردن کامنت
 const AddComment = ({ AddToComments }) => {
     const nameRef = useRef();
     const emailRef = useRef();

@@ -1,6 +1,7 @@
 import React from 'react';
 import TitleOfTask from './TitleOfTask';
 
+// نمایش هشتگ ها
 const Hashtag = ({ item }) => {
     return (
         <div className='bg-white rounded-3 p-3 mt-3'>

@@ -6,6 +6,7 @@ import CardInfo from './CardInfo'
 import items from '../../assets/information/kalaAmani';
 import img from '../../assets/img/consingned.png'
 
+// باکس برای کالا های امانی
 const BoxConsingned = () => {
     return (
         <section className={` my-5 pb-5`}>

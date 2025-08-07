@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './ViewSegment.module.css'
 import ViewBtn from '../Buttons/ViewBtn';
 
+// بخش معرفی و دکمه ورود هر صفحه
 const ViewSegment = ({ children, title, text, btn = true , path}) => {
     return (
         <section className='mb-5 pb-5 mt-5'>

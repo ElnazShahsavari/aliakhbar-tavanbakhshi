@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './TitleOfTask.module.css';
 
+// عنوان هر بخش
 const TitleOfTask = ({title}) => {
     return (
         <div className={`${styles.section} d-flex align-items-center pb-3 pt-4 mb-4`}>

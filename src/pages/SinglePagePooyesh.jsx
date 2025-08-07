@@ -10,10 +10,10 @@ import SinglePageExplain from '../components/SinglePageExplain';
 import CommentList from '../components/comment/commentList';
 import Support from '../components/Pooyesh/Support';
 
+// یک آیتم از پویش ها
 const SinglePagePooyesh = ({items}) => {
     const { productId } = useParams();
 
-    // پیدا کردن پویش مورد نظر
     const item = items.find(i => i.id.toString() === productId);
 
     if (!item) return <p>محصول پیدا نشد!</p>;

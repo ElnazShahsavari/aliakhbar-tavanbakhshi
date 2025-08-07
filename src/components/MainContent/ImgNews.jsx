@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './ImgNews.module.css';
 
+// عکس و اطلاعات بازدید ها
 const ImgNews = ({ items }) => {
     return (
         <div className={`${styles.card} pt-2`}>

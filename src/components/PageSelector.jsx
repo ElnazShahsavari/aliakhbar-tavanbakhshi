@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './PageSelector.module.css';
 
+// شمارنده صفحه بندی
 const PageSelector = () => {
     const pages = [1, 2, 3, 4, 5, 6, 7];
     const [currentPage, setCurrentPage] = useState(3);
