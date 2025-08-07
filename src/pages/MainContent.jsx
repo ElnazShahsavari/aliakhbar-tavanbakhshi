@@ -26,7 +26,7 @@ const MainContent = () => {
             </ViewSegment>
 
             <ViewSegment title={"توانجویان"} text={"باهم دنیایی بدون محدودیت بسازیم!"} path='/'>
-                <BoxInfo items={tavanJooyanItems} type={'tavan'}/>
+                <BoxInfo items={tavanJooyanItems} type={'tavan'} cardClass='text-center'/>
             </ViewSegment>
 
             <BoxAbout />

@@ -21,7 +21,7 @@ const CardInfo = ({ items, type, miniText , cardClass = '' }) => {
                 {type == 'pooyesh' && <CardInfoPooyesh items={items} link={`/Pooyesh/${items.id}`} />}
                 {type == 'tavan' && <SupportBtn title={items.btnTitle} />}
                 {type == 'mahsool' && <>
-                    <p className='w-50 text-center fw-bold ms-2 mt-2'>{items.price}تومان</p>
+                    <p className='w-50 text-center small fw-bold ms-2 mt-2'>{items.price}تومان</p>
                     <SupportBtn title={items.btnTitle} link={`/Mahsoolat/${items.id}`} />
                 </>}
                 {type == 'akhbar' && <span className='text-muted small fw-medium'>{items.date}</span>}
